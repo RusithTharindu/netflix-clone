@@ -1,0 +1,83 @@
+.netflix__header{
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height:60px;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.netflix__header-logo{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.netflix__header-navlinks{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.netflix__header-navlinks a{
+    margin: 50px;
+}
+
+.netflix__header-sign{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.netflix__header-sign a{
+    margin-right: 20px;
+}
+
+.netflix__header-sign button{
+    height: 40px;
+    width: 80px;
+    /* padding: 6px 10px; */
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0);
+    transition: 0.4s ease;
+}
+
+.netflix__header-sign button::before{
+    content: '';
+    background: blue;
+    width: 80px;
+    height: 40px;
+}
+
+.netflix__header-sign button:hover{
+    border: 1px solid red;
+    background: black;
+    color: white;
+}
+
+
+.logo-netflix {
+    display: flex;
+    align-items: center;
+}
+
+.logo-netflix img{
+    height: 40px;
+    padding-left: 20px;
+}
+
+a{
+    text-decoration: unset;
+    color: azure;
+}
