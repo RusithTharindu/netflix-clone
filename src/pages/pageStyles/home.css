@@ -1,8 +1,13 @@
+body{
+    background-color: rgb(31, 28, 28);
+}
+
 .homepage__container{
-    position: absolute;
     width: 100%;
     height: 100vh;
     background: url("../../assets/background.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,7 +25,6 @@
 }
 
 .homepage__container::before{
-    /* z-index: 1; */
     content: '';
     position: absolute;
     background-color: rgba(0, 0, 0, 0.719);
@@ -33,7 +37,136 @@
 .homepage__container h1,
 .homepage__container p{
     color: white;
-    /* filter: brightness(2); */
+}
+
+.homepage__container h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.homepage__container p{
+    font-size: 20px;
+}
+
+.homepage__content-email__section{
+    margin-top: 10px;
+}
+
+.textbox{
+    height: 50px;
+    width: 400px;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.324);
+    border: 0;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.submit-btn{
+    margin-left: 5px;
+    height: 50px;
+    width: 170px;
+    background: red;
+    color: white;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:active{
+    opacity: 0.75;
+}
+
+
+.bottom-cards{ 
+    width: 100%;
+    height: 580px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    margin: 10px 0;
+
+
+}
+
+.tv-div-cont{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tv-div-cont h1,
+.tv-div-cont p{
+    padding-left: 150px;
+}
+
+.heading-sty{
+    font-size: 50px;
+}
+
+.para-sty{
+    font-size: 20px;
+}
+
+.tv-div-img{
+    width: 50%;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tv-div-img img{
+    height: 440px;
+    width: 580px;
+}
+
+.mobile-div-img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-div-cont{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.kids-img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.kids-img img{
+    height: 440px;
+    width: 580px;
+}
+
+.kids-cont{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 
